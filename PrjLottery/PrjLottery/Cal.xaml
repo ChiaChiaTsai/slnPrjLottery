@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrjLottery.Cal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Text="0"
+                       x:Name="AnsN"
+                       Grid.Column="0"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="4"
+                       FontSize="100" 
+                       VerticalOptions="End"
+                       HorizontalOptions="End"
+                       />
+                <Button 
+                     Clicked="BtnNum_Clicked"
+                        Text="7"
+                       
+                       Grid.Column="0"
+                       Grid.Row="1"
+                        FontSize="40"  />
+                <Button Text="8"
+                        Clicked="BtnNum_Clicked"
+                       
+                       Grid.Column="1"
+                       Grid.Row="1"
+                        FontSize="40"  />
+                <Button Text="9"
+                        Clicked="BtnNum_Clicked"
+                       
+                       Grid.Column="2"
+                       Grid.Row="1"
+                        FontSize="40"  />
+                <Button Text="+"
+                        Clicked="BtnOpe_Clicked"
+                        
+                       Grid.Column="3"
+                       Grid.Row="1"
+                        FontSize="40"  />
+                <Button Text="4"
+                        Clicked="BtnNum_Clicked"
+                        
+                       Grid.Column="0"
+                       Grid.Row="2"
+                        FontSize="40"  />
+                <Button Text="5"
+                        Clicked="BtnNum_Clicked"
+                      
+                       Grid.Column="1"
+                       Grid.Row="2"
+                        FontSize="40"  />
+                <Button Text="6"
+                        Clicked="BtnNum_Clicked"
+                        
+                       Grid.Column="2"
+                       Grid.Row="2"
+                        FontSize="40"  />
+                <Button Text="-"
+                        Clicked="BtnOpe_Clicked"
+                        
+                       Grid.Column="3"
+                       Grid.Row="2"
+                        FontSize="40"  />
+                <Button Text="1"
+                        Clicked="BtnNum_Clicked"
+                        
+                       Grid.Column="0"
+                       Grid.Row="3"
+                        FontSize="40"  />
+                <Button Text="2"
+                        Clicked="BtnNum_Clicked"
+                        
+                       Grid.Column="1"
+                       Grid.Row="3"
+                        FontSize="40"  />
+                <Button Text="3"
+                        Clicked="BtnNum_Clicked"
+                       
+                       Grid.Column="2"
+                       Grid.Row="3"
+                        FontSize="40"  />
+                <Button Text="*"
+                        Clicked="BtnOpe_Clicked"
+                        
+                       Grid.Column="3"
+                       Grid.Row="3"
+                        FontSize="40"  />
+                
+                <Button Text="="
+                       Clicked="BtnEqual_Clicked"
+                       Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                       Grid.Row="4"
+                        FontSize="40"  />
+                <Button Text="0"
+                        Clicked="BtnNum_Clicked"
+                        
+                       Grid.Column="2"
+                       Grid.Row="4"
+                        FontSize="40"  />
+                <Button Text="/"
+                        Clicked="BtnOpe_Clicked"
+                       
+                       Grid.Column="3"
+                       Grid.Row="4"
+                        FontSize="40"  />
+
+
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
